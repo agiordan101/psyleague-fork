@@ -1,6 +1,35 @@
 
 Simple cmd-line league system for bot contests.
 
+# How to interact with psyleague
+
+All the following command must be executed at psyleague repository root.
+
+Config file is located at `./psyleague.cfg`
+
+Start psyleague server :
+
+`psyleague run`
+
+Add bots with :
+
+`psyleague bot add {BOT_NAME} -s {MAIN_SRC_PATH}`
+`psyleague bot add BbMmabPv-3.1.6 -s ../codingame_chess/mains/maincg`
+
+See current results with :
+
+`psyleague show`
+
+Reset league with :
+
+`rm psyleague.db && rm psyleague.games`
+
+A add_bots.sh script allow to reset the current db/games and add a bunch a bots :
+
+`sh add_bots.sh`
+
+# Original repository explanations
+
 Install the latest version with `pip install psyleague --upgrade`
 
 AFAIK, it requires python 3.8 or newer.
