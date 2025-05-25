@@ -24,9 +24,9 @@ Reset league with :
 
 `rm psyleague.db && rm psyleague.games`
 
-A add_bots.sh script allow to reset the current db/games and add a bunch a bots :
+A reset_league.sh script allow to reset the current db/games and add a bunch a bots :
 
-`sh add_bots.sh`
+`sh reset_league.sh`
 
 # Original repository explanations
 
